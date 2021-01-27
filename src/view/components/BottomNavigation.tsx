@@ -55,7 +55,6 @@ const BottomTabBar = ({
         },
         shadowOpacity: 0.95,
         shadowRadius: 3.84,
-
         elevation: 5,
       }}>
       {state.routes.map((route, index) => {
