@@ -25,6 +25,9 @@ class BasicCardComponent extends React.Component<
           <Text style={styles.icon}>{this.props.data.icon}</Text>
           <Text style={styles.titleText}>{this.props.data.title}</Text>
         </View>
+        <View>
+          <Text>{this.props.data.data}</Text>
+        </View>
       </View>
     );
   }
